@@ -74,11 +74,11 @@ h3 {
 	color: rgb(216, 179, 77);
 	font-family: 'Jura', sans-serif;
 	font-size: 20px;
-	/* min-width: 100px; */
-	/* width: 700px;
+	max-width: 70%;
+	
 	height: 800px;
-	overflow: auto; */
-	padding: 20px 50px 60px 100px;
+	overflow: auto;
+	padding: 0px 50px 60px 100px;
 	margin: 0px 80px 100px 80px;
 	/* display: inline-block;  */
 	
@@ -96,6 +96,7 @@ h3 {
 .block1 h3 {
 	font-size: 30px;
 	font-weight: 600;
+	padding: 40px;
 	margin: 0px 0px 50px 0px;
 
 }
@@ -105,7 +106,21 @@ h3 {
 	font-weight: 500;
 	font-size: 30px;
 	text-shadow: 1px 1px 1px  rgb(200, 140, 97);
-	margin: 0px 0px 50px 0px;
+	margin: 0px 0px 100px 0px;
+}
+
+.blockp {
+	font-family: 'Jura', sans-serif;
+	display: inline-block;
+	height: 300px;
+	max-width: 200px;
+	font-size: 20px;
+	background-color:rgb(128, 99, 61);
+	color: rgb(238, 240, 240);
+	padding: 10px;
+	margin: 0px 0px 10px 100px;
+	overflow: hidden; 
+
 }
 .block2p {
 	font-family: 'Oswald', sans-serif;
@@ -116,9 +131,20 @@ h3 {
 	width: 250px;
 	/* width: 350px; */
 	padding: 20px 40px 20px 40px;
-	margin: 0px 100px 100px 100px;
+	margin: 0px 100px 150px 160px;
 	background-color: rgb(0, 0, 0);
-	overflow: auto; 
+	overflow: auto;
+}
+.block2pp {
+	background-color: rgb(138, 131, 131);
+	display: inline-block;
+	text-align: justify;
+	overflow: hidden;
+	max-height: 300px;
+	max-width: 300px;
+	padding: 20px;
+	margin: 0px -200px 100px 50px;
+	overflow: auto;
 
 }
 .block3 h3 {
@@ -136,7 +162,7 @@ h3 {
 	background-color: rgb(58, 56, 56);
 	color: rgb(143, 78, 13);
 	font-size: 18px;
-	width: 700px;
+	max-width: 500px;
 	height: 500px;
 	padding: 50px;
 	margin: 0px auto; 
@@ -144,7 +170,7 @@ h3 {
 	text-transform: capitalize;
 	line-height: 130%;
 	word-spacing: 5px;
-	overflow: auto;	
+	/* overflow: auto;	 */
 }
 
 .block4 h3 {
@@ -157,16 +183,22 @@ h3 {
 
 .block4 {
 	background-color: rgba(170, 170, 168, 0.212);
+	max-width: 700px;
 	color: rgb(207, 205, 205);
 	padding: 20px;
 	margin: 0px 0px 50px 0px ;
-	width: 50%;
+	width: 60%;
 }
 .block4 span {
 	background-color: rgb(139, 138, 138);
 	/* тень просто тыкал и натыкал не ругайтесь. это единственное что не проходили официально */
 	box-shadow: 20px 20px 20px rgb(95, 94, 94); 
+	max-width: 700px;
+	margin: 0px 50px 50px 50px;
 	display: block;
+	text-align: left;
+	/* overflow: auto;  */
+
 	padding: 30px 40px 50px 60px;
 	margin: 0px 30px 50px;
 } 
@@ -227,6 +259,7 @@ h3 {
 }
 .divfooter1 {
 	font-family: 'Oswald', sans-serif;
+	margin: 10px;
 }
 .divfooter1 p {
 	text-align: center;
@@ -234,7 +267,7 @@ h3 {
 	display: inline-block;
 	max-width: 100px;
 	padding: 10px;
-	margin: 0 30px;
+	margin: 0px 50px 20px 30px;
 }
 
 .divfooter2 {
@@ -250,17 +283,18 @@ h3 {
 }	
 .divdiv1 {
 	padding: 30px;
+	margin: 0px 30px 30px 30px;
 	background-color: rgb(149, 167, 195);
 }
 .divdiv2 {
 	padding: 30px;
 	background-color: rgb(42, 42, 41);
-	margin: -20px -20px 50px 30px;
+	margin: -40px -60px 20px 0px;
 
 }
 .spanspan {
 	display: inline-block;
-	width: 500px;
+	max-width: 500px;
 	max-height: 200px;
 	color: olive;
 	background-color: rgb(82, 85, 78);
